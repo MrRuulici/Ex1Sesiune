@@ -6,7 +6,7 @@ namespace Ex1Sesiune
     {
         static void Main(string[] args)
         {
-            int[] a = new int[10];
+            int[] a = new int[Convert.ToInt32(Console.ReadLine())];
             int i;
             for (i = 0; i < a.Length; i++)
             {
